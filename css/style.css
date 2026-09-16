@@ -4,16 +4,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #ffb6c1;
 }
 
 ul li {
-  float: left;
+  float: middle;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: palevioletred;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
