@@ -1,4 +1,6 @@
-
+body {
+  background-image: url(camo.jpg);
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,3 +24,4 @@ ul li a {
 ul li a:hover {
   background-color: hsl(0, 0%, 0%);
 }
+
