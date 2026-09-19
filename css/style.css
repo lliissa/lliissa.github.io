@@ -1,19 +1,56 @@
-.navbar ul{
-  list-style-type: none;
-  background-color: #ffb6c1;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
+.navbar {
+    background-color: #333;
+    padding: 0;
 }
-.navbar a{
-  color: #ff007f;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-.navbar a:hover{
-  background-color: #000000;
+
+.navbar > ul > li {
+    position: relative;
 }
-.navbar li{
-  float: left;
+
+.navbar a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hover effect on main menu */
+.navbar > ul > li:hover {
+    background-color: #555;
+}
+
+/* Dropdown menu */
+.navbar .menu1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 150px;
+    flex-direction: column;
+}
+
+/* Dropdown items */
+.navbar .menu1 li {
+    padding: 12px 15px;
+    color: white;
+    white-space: nowrap;
+}
+
+/* Dropdown hover */
+.navbar .menu1 li:hover {
+    background-color: #555;
+}
+
+/* Show dropdown when hovering over "over" */
+.navbar li:hover > .menu1 {
+    display: flex;
 }
