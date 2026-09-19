@@ -1,9 +1,19 @@
-
-.menu{
+.dropdown ul{
+  list-style-type: none;
   background-color: #ffb6c1;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
-
-.menu > ul {
-  display: flex;
-  list-style: none;
+.dropdown a{
+  color: #ff007f;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+.dropdown a:hover{
+  background-color: #000000;
+}
+.dropdown li{
+  float: left;
 }
