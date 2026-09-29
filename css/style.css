@@ -1,0 +1,23 @@
+.menu ul{
+    list-style-type: none;
+    background-color: #00A86B;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.menu a{
+    color: #FDF6E4;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.menu a:hover{
+    background-color: #048051;
+}
+
+.menu li{
+    float: left;
+}
