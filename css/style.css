@@ -19,5 +19,6 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: #ff69b4;
   color: #ff69b4
 }
