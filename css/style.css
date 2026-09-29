@@ -14,3 +14,13 @@
     margin: 0px;
     position: absolute;
 }
+
+.navbar > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #ffd1dc;
+    color: #ff69b4;
+    
+}
