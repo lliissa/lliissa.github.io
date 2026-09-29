@@ -5,11 +5,13 @@ main{
     margin: 15px;
 }
 
-.menu > ul{
+.menu ul{
     list-style-type: none;
     background-color: #00A86B;
     padding: 0px;
     margin: 0px;
+}
+.menu > ul{
     overflow: hidden;
 }
 
