@@ -28,3 +28,24 @@ main{
 .menu li{
     float: left;
 }
+
+/*dropdown menu*/
+.menu .dropdown {
+    position: relative;
+}
+
+.menu .content {
+    display:  none;
+    position: absolute;
+    padding:  0;
+    margin: 0;
+    background-color: #00A86B;
+}
+
+.menu .content li{
+    float: none;
+}
+
+.menu .dropdown:hover .content{
+    display: block;
+}
