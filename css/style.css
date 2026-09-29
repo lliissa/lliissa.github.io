@@ -3,6 +3,7 @@
 }
 
 .dropdown-content{
+    color: black;
     display: none;
     position: absolute;
     background-color: #ffa6c9;
