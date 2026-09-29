@@ -1,13 +1,13 @@
 
 
 
-.menu{
+.menu {
     width: 1170px;
     margin: 50px auto;
     position: relative;
 }
 
-.navbar{
+.navbar {
     display: inline-block;
     padding: 0 50px;
     text-align: center;
@@ -15,12 +15,12 @@
     position: absolute;
 }
 
-.navbar > ul{
+.navbar > ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: inline-block;
     background: #ffd1dc;
     color: #ff69b4;
-    
+
 }
