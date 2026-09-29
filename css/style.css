@@ -1,0 +1,16 @@
+
+
+
+.menu{
+    width: 1170px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.navbar{
+    display: inline-block;
+    padding: 0 50px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+}
