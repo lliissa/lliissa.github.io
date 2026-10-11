@@ -1,3 +1,6 @@
 body{
-    background-image: url('pika.jpg');
+    background-color: #444444;
+}
+h1{
+    color: black;
 }
