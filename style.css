@@ -6,8 +6,16 @@ h1{
     color:black;
 }
 
+/*dit is de menu bar*/
 nav{
     width: 100%;
     height: 60px;
     background-color: #4444;
+}
+
+nav p{
+    font-family: arial;
+    color: #ff2c2c;
+    font-size: 24px;
+    line-height: 55px;
 }
