@@ -112,3 +112,92 @@ main p {
         min-width: 180px;
     }
 }
+
+
+
+/* Smooth hover transition for all types */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+}
+
+/* Normal */
+.type-normal { background-color: #A8A878; color: white; }
+.type-normal:hover { background-color: #77775A; }
+
+/* Fire */
+.type-fire { background-color: #F08030; color: white; }
+.type-fire:hover { background-color: #CC4920; }
+
+/* Water */
+.type-water { background-color: #6890F0; color: white; }
+.type-water:hover { background-color: #3563C9; }
+
+/* Electric */
+.type-electric { background-color: #F8D030; color: #222; }
+.type-electric:hover { background-color: #D6AA00; }
+
+/* Grass */
+.type-grass { background-color: #78C850; color: white; }
+.type-grass:hover { background-color: #4B9B35; }
+
+/* Ice */
+.type-ice { background-color: #98D8D8; color: #222; }
+.type-ice:hover { background-color: #55B8C0; }
+
+/* Fighting */
+.type-fighting { background-color: #C03028; color: white; }
+.type-fighting:hover { background-color: #92221D; }
+
+/* Poison */
+.type-poison { background-color: #A040A0; color: white; }
+.type-poison:hover { background-color: #762C76; }
+
+/* Ground */
+.type-ground { background-color: #E0C068; color: #222; }
+.type-ground:hover { background-color: #B89A42; }
+
+/* Flying */
+.type-flying { background-color: #A890F0; color: #222; }
+.type-flying:hover { background-color: #8067D0; }
+
+/* Psychic */
+.type-psychic { background-color: #F85888; color: white; }
+.type-psychic:hover { background-color: #CF3265; }
+
+/* Bug */
+.type-bug { background-color: #A8B820; color: white; }
+.type-bug:hover { background-color: #7C8915; }
+
+/* Rock */
+.type-rock { background-color: #B8A038; color: white; }
+.type-rock:hover { background-color: #897624; }
+
+/* Ghost */
+.type-ghost { background-color: #705898; color: white; }
+.type-ghost:hover { background-color: #514071; }
+
+/* Dragon */
+.type-dragon { background-color: #7038F8; color: white; }
+.type-dragon:hover { background-color: #5020C5; }
+
+/* Dark */
+.type-dark { background-color: #705848; color: white; }
+.type-dark:hover { background-color: #4D3B30; }
+
+/* Steel */
+.type-steel { background-color: #B8B8D0; color: #222; }
+.type-steel:hover { background-color: #8989AA; }
+
+/* Fairy */
+.type-fairy { background-color: #EE99AC; color: #222; }
+.type-fairy:hover { background-color: #D66F89; }
+
+
+/* Smooth color transition */
+.type-menu a {
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
