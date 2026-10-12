@@ -34,7 +34,7 @@ body {
 
 /* Hover effect */
 .nav-link:hover {
-    background-color: #ffcb05;
+    background-color: hsl(0, 0%, 7%);
     color: #222;
 }
 
