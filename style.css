@@ -67,8 +67,8 @@ body {
 
 /* Dropdown link hover */
 .dropdown-content a:hover {
-    background-color: #ffd6db;
     color: #222;
+    
 }
 
 /* Show dropdown on hover */
