@@ -28,4 +28,5 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 24px 14px;
+    text-decoration: none;
 }
