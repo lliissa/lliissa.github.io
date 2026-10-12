@@ -23,10 +23,16 @@ nav ul {
 nav ul li {
     float: left;
     list-style: none;
+    position: relative;
 }
 
 nav ul li a {
     display: block;
     padding: 24px 14px;
     text-decoration: none;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
 }
