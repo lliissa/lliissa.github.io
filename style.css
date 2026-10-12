@@ -34,7 +34,7 @@ body {
 
 /* Hover effect */
 .nav-link:hover {
-    background-color: hsl(0, 0%, 7%);
+    background-color: #ff9cba;
     color: #222;
 }
 
@@ -67,7 +67,7 @@ body {
 
 /* Dropdown link hover */
 .dropdown-content a:hover {
-    background-color: #ffcb05;
+    background-color: #ffd6db;
     color: #222;
 }
 
