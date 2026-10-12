@@ -24,3 +24,8 @@ nav ul li {
     float: left;
     list-style: none;
 }
+
+nav ul li a {
+    display: block;
+    padding: 24px 14px;
+}
