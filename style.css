@@ -67,6 +67,7 @@ body {
 
 /* Dropdown link hover */
 .dropdown-content a:hover {
+    background-color: #ffe6f0;
     color: #222;
     
 }
