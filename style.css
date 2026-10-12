@@ -13,7 +13,7 @@ body {
 
 /* Navigation bar */
 .navbar {
-    background-color: #222;
+    background-color: #f4b3c6;
     display: flex;
     justify-content: left;
     align-items: left;
@@ -51,7 +51,7 @@ body {
     left: 0;
     min-width: 200px;
     background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 16px rgba(5, 0, 0, 0.25);
     border-top: 3px solid #ffcb05;
     z-index: 1000;
 }
